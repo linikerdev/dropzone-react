@@ -17,12 +17,14 @@ const dragReject = css`
 export const DropContainer = styled.div.attrs({
   className: 'dropzone'
 })`
+  width: ${props => props.width + 'px'};
+  height: ${props => props.height + 'px'};
   border-radius: 4px;
   cursor: pointer;
   border-radius: 2;
   border: dashed 2px;
   border-color: ${messageColors.default};
-  background-color: '#ffffff';
+  background-color: rgba(255, 255, 255, 0.6);
   color: '#bdbdbd';
   outline: none;
   transition: border 0.1s ease-in-out;
