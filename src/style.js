@@ -1,11 +1,12 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-`;
+  background: red;
+`
 
 export const Content = styled.div`
   width: 100%;
@@ -14,4 +15,4 @@ export const Content = styled.div`
   background: #fff;
   border-radius: 4px;
   padding: 20px;
-`;
+`
